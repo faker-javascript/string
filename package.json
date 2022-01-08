@@ -1,0 +1,34 @@
+{
+  "name": "@fakerjs/string",
+  "version": "1.0.0",
+  "description": "String package provides functionality to generate a fake string value.",
+  "license": "MIT",
+  "repository": "fakerjs/string",
+  "author": {
+    "name": "Sergey Romanenko",
+    "email": "awilum@msn.com",
+    "url": "https://github.com/Awilum"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "fakerjs",
+    "fake",
+    "random",
+    "strings",
+    "string",
+    "str"
+  ]
+}
