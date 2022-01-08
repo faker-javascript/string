@@ -1,9 +1,9 @@
 {
   "name": "@fakerjs/string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "String package provides functionality to generate a fake string value.",
   "license": "MIT",
-  "repository": "fakerjs/string",
+  "repository": "faker-javascript/string",
   "author": {
     "name": "Sergey Romanenko",
     "email": "awilum@msn.com",
