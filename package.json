@@ -1,6 +1,6 @@
 {
   "name": "@fakerjs/string",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "String package provides functionality to generate a fake string value.",
   "license": "MIT",
   "repository": "faker-javascript/string",
@@ -25,6 +25,7 @@
   ],
   "keywords": [
     "fakerjs",
+    "faker",
     "fake",
     "random",
     "strings",

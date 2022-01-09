@@ -1,10 +1,15 @@
-import fakeString from './index.js';
+import string from './index.js';
 import test from 'ava';
 
-test('fakeString return type to be string', t => {
-	t.is(typeof fakeString(), 'string');
+//console.log(string({length: 10}));
+test('string return type to be string', t => {
+	t.is(typeof string(), 'string');
 });
 
-test('fakeString string length is 10', t => {
-	t.is(fakeString(10).length, 10);
+test('string length is 10', t => {
+	t.is(string({length: 10}).length, 10);
+});
+
+test('string length is 10 with keyspace 0123456789', t => {
+	t.is(string({length: 10, keyspace: '0123456789'}).length, 10);
 });

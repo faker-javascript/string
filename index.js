@@ -1,4 +1,7 @@
-export default function fakeString(length = 64, keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ') {
+export default function string(options) {
+    options = options || {};
+    let length = options.length || 64;
+    let keyspace = options.keyspace || '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     let pieces = [];
     if (length < 0) {
         length = 1;

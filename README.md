@@ -15,15 +15,15 @@ $ npm install --save @fakerjs/string
 ## Usage
 
 ```js
-import fakeString from '@fakerjs/string';
+import string from '@fakerjs/string';
 
-fakeString();
+string();
 //=> 3Kekravwvb78vP9CQPP1vaRCgi4dZETOktxzf8pF5gufFqh8mOICMqjRP4y8UxoI
 
-fakeString(10);
+string(10);
 //=> FxvqHNFNUu
 
-fakeString(10, '#@$%&+=');
+string(10, '#@$%&+=');
 //=> $+#%#&$$=@
 ```
 
