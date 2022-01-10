@@ -1,7 +1,6 @@
 import string from './index.js';
 import test from 'ava';
 
-//console.log(string({length: 10}));
 test('string return type to be string', t => {
 	t.is(typeof string(), 'string');
 });

@@ -20,10 +20,10 @@ import string from '@fakerjs/string';
 string();
 //=> 3Kekravwvb78vP9CQPP1vaRCgi4dZETOktxzf8pF5gufFqh8mOICMqjRP4y8UxoI
 
-string(10);
+string({length: 10});
 //=> FxvqHNFNUu
 
-string(10, '#@$%&+=');
+string({length: 10, keyspace: '#@$%&+='});
 //=> $+#%#&$$=@
 ```
 
