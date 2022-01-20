@@ -9,8 +9,14 @@ String package provides functionality to generate a fake string value.
 
 ## Install
 
+npm
 ```
-$ npm install --save @fakerjs/string
+npm install @fakerjs/string --save-dev
+```
+
+yarn
+```
+yarn add @fakerjs/string -D
 ```
 
 ## Usage
